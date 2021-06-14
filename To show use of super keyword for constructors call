@@ -1,0 +1,21 @@
+class Vehicle
+          {
+	int maxSpeed = 140;
+}
+class Car extends Vehicle
+{
+int maxSpeed = 200;
+void display()
+	{
+		System.out.println("Maximum Speed: " + super.maxSpeed);
+	}
+}
+class speed
+{
+	public static void main(String[] args)
+	{
+		Car small = new Car();
+		small.display();
+	}
+} 
+
